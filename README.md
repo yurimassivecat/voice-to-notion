@@ -3,6 +3,7 @@ voice-to-notion
 An automated workflow that converts voice recordings to text using OpenAI's API and then uploads the text to Notion.
 Introduction
 This tool automatically creates new pages in Notion for voice recordings that are stored in a specific folder. It continuously monitors a specified folder for new voice recordings, and when it finds one, it creates a new page in a specified Notion database, attaching a transcript, a summary, and a shareable link to the original file in Google Drive. The tool is implemented in Python.
+
 Setup
 1.	Install Python
 Make sure you have Python installed on your computer. You can download it from the official Python website.
@@ -29,6 +30,7 @@ The script then saves the transcribed text into a text file in a designated outp
 5.	Upload to Notion
 The txttoNotion.py script monitors the output folder for new text files. When it detects a new file, it automatically uploads the content of the text file to a specified page in Notion as a block of text.
 This workflow creates an efficient system for turning spoken words into written notes in Notion, without requiring any manual transcription or data entry. It can be used in a variety of scenarios, from personal voice notes to business meetings and academic lectures.
+
 Usage
 1.	Setup the Script
 Replace the placeholders in the script with your actual Notion API key, parent page ID, and the path to the folder you're monitoring.

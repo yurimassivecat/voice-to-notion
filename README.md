@@ -22,7 +22,7 @@ Here is a typical user workflow for these scripts:
 1.	Record an Audio Message
 The user records an audio message on their phone or any other recording device. The type and length of the recording can vary depending on the user's needs. It could be a personal voice note, a meeting, a lecture, an interview, etc.
 2.	Save to Google Drive
-The recorded audio file is automatically saved to a designated folder in Google Drive. This can be set up on most smartphones and computers, providing an efficient and seamless way to manage and store recordings. Folder Sync for Android is good to sync the default save folder for your audio files with a folder in Google Drive. Folder Sync
+The recorded audio file is automatically saved to a designated folder in Google Drive. This can be set up on most smartphones and computers, providing an efficient and seamless way to manage and store recordings. Folder Sync for Android is good to sync the default save folder for your audio files with a folder in Google Drive. [Folder Sync](https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.lite)
 3.	Automatic Conversion to Text
 The voicetotext.py script monitors the Google Drive folder for new audio files. When it detects a new file, it automatically converts the spoken words in the audio file into written text using OpenAI's API.
 4.	Save Text Files to Google Drive

@@ -32,12 +32,12 @@ The txttoNotion.py script monitors the output folder for new text files. When it
 This workflow creates an efficient system for turning spoken words into written notes in Notion, without requiring any manual transcription or data entry. It can be used in a variety of scenarios, from personal voice notes to business meetings and academic lectures.
 
 Usage
-1.	Setup the Script
+1.	Setup the Script:
 Replace the placeholders in the script with your actual Notion API key, parent page ID, and the path to the folder you're monitoring.
-2.	Run the Script
+2.	Run the Script:
 Run the script from the command line with the following command:
 python script_name.py
-3.	Create a Voice Recording
+3.	Create a Voice Recording:
 When you create a new voice recording in the folder that you're monitoring, the script will automatically create a new page in the specified Notion database.
 
 Features

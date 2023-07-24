@@ -39,10 +39,12 @@ Run the script from the command line with the following command:
 python script_name.py
 3.	Create a Voice Recording
 When you create a new voice recording in the folder that you're monitoring, the script will automatically create a new page in the specified Notion database.
+
 Features
 •	Continuously monitors a specific folder for new voice recordings.
 •	Automatically creates new pages in a Notion database for each new voice recording.
 •	Attaches a transcript, a summary, and a shareable link to the original file in Google Drive to the new Notion page.
+
 Please replace script_name.py with the actual name of the Python script that you're running.
 
 

@@ -1,5 +1,7 @@
 Voice-to-Notion
 
+https://yurigushiken.com/2023/04/11/voice-to-notion-python-app/ (video demonstration)
+
 This tool is an automated workflow that converts voice recordings to text using OpenAI's API and then uploads the text to Notion. It is implemented in Python and consists of two main scripts: voicetotext.py and txttoNotion.py. Together these two scripts make voice-to-notion. [voice to text + text to notion = voice-to-notion]
 
 Introduction
